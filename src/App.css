@@ -1,0 +1,26 @@
+/* .no-padding-top {
+  padding-top: 0px !important;
+  display: inline-block;
+} */
+
+/* .no-padding-top > button,
+.video-react-control-bar {
+  display: none;
+} */
+
+/* .video-react-control-bar {
+  border: 1px solid #000;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-react-play-progress,
+.video-react-load-progress {
+  height: 6px !important;
+  display: none;
+}
+.video-react-time-control {
+  margin-left: auto;
+  display: none;
+} */
