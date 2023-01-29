@@ -44,8 +44,7 @@ function App() {
               Are you <span className="text-[#04ABEE]">ready</span> to attend?
             </h2>
             <h1 className="font-black text-[65px] max-[410px]:text-[50px] max-[360px]:text-[40px] text-[rgb(255,255,255)]">
-              Jambh Yuva{" "}
-              <span className="border-b-8 border-[#FF2C55]">Mahotsav</span>{" "}
+              Yuva <span className="border-b-8 border-[#FF2C55]">Mahotsav</span>{" "}
               <span className="text-[#EFA506]">2</span>
               <span className="text-[#FF2C55]">0</span>
               <span>2</span>
@@ -75,7 +74,10 @@ function App() {
           <EventTimer eventDate={eventDate} />
         </div>
       </div>
-      <div className="w-100% h-100% -mt-[20px] m-auto">
+      <div className="w-100% h-100% -mt-[12px]">
+        <h1 className="text-[24px] font-bold text-[#efa506]">
+          An introduction by Swami Sachchidanand Ji (Lalasar Sathari):{" "}
+        </h1>
         <Player
           ref={playerRef}
           autoPlay={false}
